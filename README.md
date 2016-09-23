@@ -12,7 +12,7 @@
 * pandas
 * statistics
 
-usa o pip install
+usa o pip install para instalar essas libs
 
 # More info
 #### Ratings
