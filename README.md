@@ -20,4 +20,5 @@ Vc dá de 1 a 5 pontos nele
 
 # TODO
 Oção para selecionar quais jogadores irão jogar
+
 Enviar email para todo mundo informando os times
