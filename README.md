@@ -8,8 +8,9 @@
 
 * **metodo_tiratime**: elevador ou foco_media
 
-# Requer pandas
-simples... pip install pandas
+# Requirements
+* pandas
+* statistics
 
 # More info
 #### Ratings
