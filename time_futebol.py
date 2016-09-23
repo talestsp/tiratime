@@ -1,4 +1,4 @@
-class Time_Futebol:
+class TimeFutebol:
 
 	jogadores = None
 	nome = ""
@@ -25,3 +25,8 @@ class Time_Futebol:
 			nomes.append(j.nome)
 		return nomes
 
+	def get_pontos_jogadores(self, points_method):
+		pontos = []
+		for j in self.jogadores:
+			pontos.append(j.get_points(points_method=points_method))
+		return pontos
