@@ -12,6 +12,8 @@
 * pandas
 * statistics
 
+usa o pip install
+
 # More info
 #### Ratings
 Será considerado os ratings dados na ultima tabela colocada no projeto.
