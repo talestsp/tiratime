@@ -10,7 +10,7 @@ class TiraTime:
 
 	jogadores = []
 	method_points_jogador = "" 
-	nomes_times = ["A", "B", "C", "D", "E", "F"]
+	nomes_times = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	tamanho_times = None
 
 	def __init__(self, tamanho_times, method_points_jogador='mean'):
@@ -25,43 +25,38 @@ class TiraTime:
 		num_times = int(num_times)
 		jogadores = JogadorDAO().get_jogadores()
 		self.jogadores = sorted(jogadores, key=lambda x: x.get_points(points_method=self.method_points_jogador), reverse=True)
-
-		if (len(self.jogadores) / self.tamanho_times) < num_times:
-			print ("Peraí néh...")
-			print ("Não dá pra fazer", num_times, "times de", self.tamanho_times, "com", len(self.jogadores), "jogadores!")
 		
+		print ("=============================================================")
+		print ("Total jogadores:", len(self.jogadores))
+		print (self.get_jogadores_df(self.jogadores))
+		print ("=============================================================")
+		print ()
+
+		# method = elevador
+		# implementa o convencional tira time em rodadas
+		# os melhores n jogadores são os capitães
+		# em cada rodada cada capitão tira o melhor jogador disponível pro seu time
+		# o detalhe aqui é que em cada rodada, os times que estiverem pior, escolhem primeiro
+
+		# method = foco_media_time
+		# cada um dos n capitães são escolhido random
+		# em cada rodada o capitão escolhe o jogador que faz a média do time ser a mais proxima da média geral
+		# média geral é a média de TODOS os jogadores do raxa
+
+		if method == "elevador":
+			times = self.tira_time_elevador(num_times)
+		
+		elif method == "media_time":
+			media_geral_jogadores = self.get_jogadores_df(self.jogadores)["points"].mean()	
+			#times = self.tira_time_media_time(num_times, media_geral_jogadores)
+			print ("Método <<", method , ">> ainda não implementado!")
+			return
+
 		else:
-			print ("=============================================================")
-			print ("Total jogadores:", len(self.jogadores))
-			print (self.get_jogadores_df(self.jogadores))
-			print ("=============================================================")
-			print ()
+			print ("Método para escolha de times não reconhecido")
+			return
 
-			# method = elevador
-			# implementa o convencional tira time em rodadas
-			# os melhores n jogadores são os capitães
-			# em cada rodada cada capitão tira o melhor jogador disponível pro seu time
-			# o detalhe aqui é que em cada rodada, os times que estiverem pior, escolhem primeiro
-
-			# method = foco_media_time
-			# cada um dos n capitães são escolhido random
-			# em cada rodada o capitão escolhe o jogador que faz a média do time ser a mais proxima da média geral
-			# média geral é a média de TODOS os jogadores do raxa
-
-			if method == "elevador":
-				times = self.tira_time_elevador(num_times)
-			
-			elif method == "media_time":
-				media_geral_jogadores = self.get_jogadores_df(self.jogadores)["points"].mean()	
-				#times = self.tira_time_media_time(num_times, media_geral_jogadores)
-				print ("Método <<", method , ">> ainda não implementado!")
-				return
-
-			else:
-				print ("Método para escolha de times não reconhecido")
-				return
-
-			return times
+		return times
 
 
 	def tira_time_elevador(self, num_times):
@@ -81,10 +76,11 @@ class TiraTime:
 		return times
 
 	def rodadas_elevador(self, times):
-		while not self.completou_times(times):
+		while (not self.completou_times(times)) and (len(self.jogadores) != 0):
 
 			for time in times:
-			
+				if len(self.jogadores) == 0:
+					break			
 				melhor_jogador = self.jogadores[0]
 				time.add_jogador(melhor_jogador)
 				
@@ -106,20 +102,24 @@ class TiraTime:
 				jogador_json = {"time": time.nome, "jogador": jogador.nome, "pontos_jogador": jogador.get_points(points_method=self.method_points_jogador), 'ratings': str(jogador.ratings)} 
 				times_json.append(jogador_json)
 
-		cols = ["time", "jogador", "pontos_jogador", "ratings"]
-		times_df = pd.DataFrame(times_json)[cols]
+		cols = ["jogador", "pontos_jogador", "ratings"]
+		times_df = pd.DataFrame(times_json)
 
 		for time in times_df.time.drop_duplicates().tolist():
-			print ("Time", time)
 			time_df = times_df[ times_df['time'] == time ]
-			print (time_df)
+			print ("Time", time, "-", len(time_df), "jogadores")
+			print("")
+			print (time_df[cols])
 			print ("Pontuação do time:", time_df['pontos_jogador'].sum())
 			print ("Media de pontos por jogador:", time_df['pontos_jogador'].mean())
 			print ("************************************************************")
 			print()
 
 	def show_jogadores_sobraram(self):
-		print ("Sobraram os seguintes jogadores")
+		if len(self.jogadores) == 0:
+			print ("Não sobrou jogador")
+			return
+
 		jogadores_json = []
 		cols = ["time", "jogador", "pontos_jogador", "ratings"]
 
@@ -129,6 +129,8 @@ class TiraTime:
 
 		sobrou_df = pd.DataFrame(jogadores_json)
 		sobrou_df['time'] = "Sem Time"
+
+		print ("Sobraram os seguintes jogadores")
 		print (sobrou_df[cols])
 
 	def completou_times(self, times):
