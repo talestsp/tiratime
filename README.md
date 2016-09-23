@@ -3,10 +3,10 @@
 # Execute
 python3 main.py 6 3 mean elevador
 ou através do codigo main mesmo
+(testei com python3, mas python2 deve funcionar deboas)
 
 # Requer pandas
 simples... pip install pandas
-testei com python3, mas python2 deve funcionar deboas
 
 # More info
 Será considerado os ratings dados na ultima tabela colocada no projeto.
