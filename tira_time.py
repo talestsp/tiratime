@@ -144,7 +144,7 @@ class TiraTime:
 			time_df = times_df[ times_df['time'] == time ]
 			print (time_df)
 			print ("Pontuação do time:", time_df['pontos_jogador'].sum())
-			print ("Media de pontos por jogador:", time_df['pontos_jogador'].sum())
+			print ("Media de pontos por jogador:", time_df['pontos_jogador'].mean())
 			print ("************************************************************")
 			print()
 
