@@ -7,7 +7,7 @@ from tira_time import TiraTime
 # exemplo de como rodar 
 # python3 main.py 6 3 mean elevador
 
-if sys.argv != 5:
+if len(sys.argv) != 5:
 	######################################################################################
 	TAMANHO_TIMES = 6
 	NUMERO_DE_TIMES = 3

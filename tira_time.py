@@ -14,7 +14,7 @@ class TiraTime:
 	tamanho_times = None
 
 	def __init__(self, tamanho_times, method_points_jogador='mean'):
-		self.tamanho_times = tamanho_times
+		self.tamanho_times = int(tamanho_times)
 
 		# os points do jogador vão ser o quê? média ou mediana ou moda dos ratings?
 		# method_points_jogador deve ser 'mean', 'median' ou 'mode'
@@ -22,6 +22,7 @@ class TiraTime:
 
 	def tira_time(self, num_times, method='elevador'):
 		print ("")
+		num_times = int(num_times)
 		jogadores = JogadorDAO().get_jogadores()
 		self.jogadores = sorted(jogadores, key=lambda x: x.get_points(points_method=self.method_points_jogador), reverse=True)
 
@@ -93,37 +94,6 @@ class TiraTime:
 				#ordena times do pior para o melhor para o pior começar escolhendo
 				times = sorted(times, key=lambda x: x.get_pontos_time(method_points_jogador=self.method_points_jogador))
 
-		return times
-
-
-	def tira_time_media_time(self, num_times):
-		times = self.start_times_media_time(num_times)
-
-
-		times = self.rodadas_media_time(times, media_geral)
-
-		self.show_times(times)
-		self.show_jogadores_sobraram()
-
-	def start_times_media_time(self, num_times):
-		times = []
-
-		for i in range(num_times):
-			nome = self.nomes_times[i]
-			time = Time_Futebol(nome=nome)
-
-			capitao = self.jogadores[ randint(0, len(self.jogadores) - 1) ]
-			time.add_jogador(capitao)
-
-			self.jogadores.remove(capitao)
-
-			times.append( time )
-
-		return times
-
-
-	def rodadas_media_time(self, times, media_geral):
-		#TODO
 		return times
 
 
