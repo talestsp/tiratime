@@ -2,7 +2,9 @@
 
 # Execute
 python3 main.py 6 3 mean elevador
-ou através do codigo main mesmo
+
+# Ou então...
+no codigo main mesmo
 (testei com python3, mas python2 deve funcionar deboas)
 
 # Requer pandas
