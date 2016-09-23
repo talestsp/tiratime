@@ -45,7 +45,7 @@ class TiraTime:
 
 			# method = foco_media_time
 			# cada um dos n capitães são escolhido random
-			# em cada rodada o capitão escolhe o jogador que faz a média do time ser a média geral
+			# em cada rodada o capitão escolhe o jogador que faz a média do time ser a mais proxima da média geral
 			# média geral é a média de TODOS os jogadores do raxa
 
 			if method == "elevador":
