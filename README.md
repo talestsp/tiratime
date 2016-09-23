@@ -1,7 +1,7 @@
 # tiratime
 
 # Executando
-#### python3 main.py <tamanho_time> <num_times> <metodo_sumarizar_rating> <metodo_tiratime>
+#### python3 main.py tamanho_time num_times metodo_sumarizar_rating metodo_tiratime
 **tamanho_time**: num de jogadores por time
 
 **num_times**: quantidade de times
