@@ -30,6 +30,5 @@ implementa o convencional tira time em rodadas os melhores n jogadores são os c
 cada um dos n capitães são escolhido random em cada rodada o capitão escolhe o jogador que faz a média do time ser a média geral média geral é a média de TODOS os jogadores do raxa
 
 # TODO
-Oção para selecionar quais jogadores irão jogar
-
+Oção para selecionar quais jogadores irão jogar no dia
 Enviar email para todo mundo informando os times
