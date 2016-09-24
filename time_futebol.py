@@ -10,10 +10,10 @@ class TimeFutebol:
 	def add_jogador(self, jogador):
 		self.jogadores.append(jogador)
 
-	def get_pontos_time(self, method_points_jogador='mean'):
+	def get_pontos_time(self):
 		soma = 0
 		for jogador in self.jogadores:
-			soma += jogador.get_points(points_method=method_points_jogador)
+			soma += jogador.get_media_pontos()
 		return soma
 
 	def tamanho_time(self):
@@ -25,8 +25,8 @@ class TimeFutebol:
 			nomes.append(j.nome)
 		return nomes
 
-	def get_pontos_jogadores(self, points_method):
+	def get_pontos_jogadores(self):
 		pontos = []
 		for j in self.jogadores:
-			pontos.append(j.get_points(points_method=points_method))
+			pontos.append(j.get_media_pontos())
 		return pontos

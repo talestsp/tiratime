@@ -5,27 +5,21 @@ import pandas as pd
 from random import randint
 from dao import JogadorDAO
 from time_futebol import TimeFutebol
-from statistics import mean
 
 class TiraTime:
 
 	jogadores = []
-	method_points_jogador = "" 
 	nomes_times = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	tamanho_times = None
 
-	def __init__(self, tamanho_times, method_points_jogador='mean'):
+	def __init__(self, tamanho_times):
 		self.tamanho_times = int(tamanho_times)
-
-		# os points do jogador vão ser o quê? média ou mediana ou moda dos ratings?
-		# method_points_jogador deve ser 'mean', 'median' ou 'mode'
-		self.method_points_jogador = method_points_jogador		
 
 	def tira_time(self, num_times, method='elevador'):
 		print ("")
 		num_times = int(num_times)
 		jogadores = JogadorDAO().get_jogadores()
-		self.jogadores = sorted(jogadores, key=lambda x: x.get_points(points_method=self.method_points_jogador), reverse=True)
+		self.jogadores = sorted(jogadores, key=lambda x: x.get_media_pontos(), reverse=True)
 		
 		print ("=============================================================")
 		print ("Total jogadores:", len(self.jogadores))
@@ -88,7 +82,7 @@ class TiraTime:
 				self.jogadores = self.jogadores[1:]
 
 				#ordena times do pior para o melhor para o pior começar escolhendo
-				times = sorted(times, key=lambda x: x.get_pontos_time(method_points_jogador=self.method_points_jogador))
+				times = sorted(times, key=lambda x: x.get_pontos_time())
 
 		return times
 
@@ -128,10 +122,10 @@ class TiraTime:
 				# será escolhido o jogador que, caso seja adicionado no... 
 				# ...time, o time fique com a media bem perto da media geral
 				melhor_opcao = {"jogador": None, "diff": 999999}
-				pontos_time = time.get_pontos_jogadores(points_method=self.method_points_jogador)
+				pontos_time = time.get_pontos_jogadores()
 
 				for jogador in self.jogadores:
-					media = mean(pontos_time + [jogador.get_points(points_method=self.method_points_jogador)] )
+					media = self.mean(pontos_time + [jogador.get_media_pontos()] )
 
 					diff = abs(media - media_geral_jogadores)
 
@@ -143,9 +137,12 @@ class TiraTime:
 				self.jogadores.remove(melhor_opcao['jogador'])
 				
 				#ordena times do pior para o melhor para o pior começar escolhendo
-				times = sorted(times, key=lambda x: x.get_pontos_time(method_points_jogador=self.method_points_jogador))
+				times = sorted(times, key=lambda x: x.get_pontos_time())
 
 		return times
+
+	def mean(self, lista):
+		return sum(lista) / float(len(lista))
 
 
 
@@ -159,7 +156,7 @@ class TiraTime:
 		for time in times:
 		
 			for jogador in time.jogadores:
-				jogador_json = {"time": time.nome, "jogador": jogador.nome, "pontos_jogador": jogador.get_points(points_method=self.method_points_jogador), 'ratings': str(jogador.ratings)} 
+				jogador_json = {"time": time.nome, "jogador": jogador.nome, "pontos_jogador": jogador.get_media_pontos(), 'ratings': str(jogador.ratings)} 
 				times_json.append(jogador_json)
 
 		cols = ["jogador", "pontos_jogador", "ratings"]
@@ -184,7 +181,7 @@ class TiraTime:
 		cols = ["time", "jogador", "pontos_jogador", "ratings"]
 
 		for j in self.jogadores:
-			jogador = {"jogador": j.nome, "pontos_jogador": j.get_points(points_method=self.method_points_jogador), "ratings": j.ratings}
+			jogador = {"jogador": j.nome, "pontos_jogador": j.get_media_pontos(), "ratings": j.ratings}
 			jogadores_json.append(jogador)
 
 		sobrou_df = pd.DataFrame(jogadores_json)
@@ -205,7 +202,7 @@ class TiraTime:
 		
 		for jogador in jogadores:
 			nome = jogador.nome
-			points = jogador.get_points(points_method=self.method_points_jogador)
+			points = jogador.get_media_pontos()
 			ratings = str(jogador.ratings)
 
 			jogador_dict = {"nome": nome, "points": points, "ratings": ratings}
