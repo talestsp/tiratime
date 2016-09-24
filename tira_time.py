@@ -165,12 +165,12 @@ class TiraTime:
 		for time in times_df.time.drop_duplicates().tolist():
 			time_df = times_df[ times_df['time'] == time ]
 			print ("**** TIME", time, "****")
-			print ("Pontuação do time: [", round(time_df['pontos_jogador'].sum(), 3), "]")
+			print ("Pontuacao do time: [", round(time_df['pontos_jogador'].sum(), 3), "]")
 			print ("Media do jogador: [", round(time_df['pontos_jogador'].mean(), 3), "]")
-			print("")
+			print ("")
 			print (time_df[cols])
 			print ("************************************************************")
-			print()
+			print ("")
 
 	def show_jogadores_sobraram(self):
 		if len(self.jogadores) == 0:
