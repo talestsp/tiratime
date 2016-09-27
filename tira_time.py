@@ -207,21 +207,6 @@ class TiraTime:
 			jogador_dict = {"jogador": nome, "points": points, "n_ratings": len(ratings)}
 			jogadores_json.append(jogador_dict)
 
-		return pd.DataFrame(jogadores_json)
+		jogadores_df = pd.DataFrame(jogadores_json)
 
-	def quem_vai_jogar(self, jogadores_df):
-		vai_jogar = []
-		print ("Pressione <Enter> para confirmar...")
-		print ("Pressione qualquer outra coisa para negar...")
-
-		for nome in jogadores_df['jogador'].iteritems():
-			nome = nome[1]
-			print ("")
-			resp = raw_input(nome.upper() + " vai jogar?")
-			if len(resp) == 0:
-				vai_jogar.append(nome)
-				print (nome + " vai")
-			else:
-				print (nome + " não vai")
-
-		return vai_jogar
+		return jogadores_df

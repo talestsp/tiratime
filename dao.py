@@ -56,7 +56,11 @@ class JogadorDAO:
 			recent_jogador_data = all_jogador_data[ all_jogador_data['source'] == recent_source_jogador_data ]
 
 			util_data = util_data.append(recent_jogador_data)
-			
+
+		quem_vai = self.quem_vai_jogar()
+
+		util_data = (pd.merge(util_data, quem_vai, on='Jogador', how='inner'))
+
 		return util_data
 
 	def get_jogadores(self, ):
@@ -66,15 +70,23 @@ class JogadorDAO:
 		data_util = self.get_util_data()
 
 		for nome_jogador in lista_nomes_jogadores:
-			jogador_data = data_util[ data_util['Jogador'] == nome_jogador ]
-			ratings = jogador_data['Rating'].tolist()
+			if nome_jogador in data_util.Jogador.tolist():		
+				jogador_data = data_util[ data_util['Jogador'] == nome_jogador ]
+				ratings = jogador_data['Rating'].tolist()
 
-			jogador = Jogador(nome=nome_jogador, ratings=ratings)
+				jogador = Jogador(nome=nome_jogador, ratings=ratings)
 
-			lista_jogadores.append(jogador)
+				lista_jogadores.append(jogador)
 
 		return lista_jogadores
 
 
 	def get_lista_jogadores(self):
 		return self.data['Jogador'].drop_duplicates().tolist()
+
+	def quem_vai_jogar(self):
+		data = pd.read_csv("quem_vai_jogar/quem_vai_jogar.csv")
+		data = data[data['Vai'] == 1]
+		del data['Vai']
+		return data
+

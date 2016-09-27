@@ -1,7 +1,7 @@
 # tiratime
 
 # Executando
-#### python main.py num_times tamanho_time metodo_tiratime
+#### python MAIN.py num_times tamanho_time metodo_tiratime
 * **num_times**: quantidade de times
 * **tamanho_time**: num de jogadores por time
 * **metodo_tiratime**: elevador ou foco_media
