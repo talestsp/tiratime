@@ -15,6 +15,9 @@ usa o pip install para instalar essas libs
 Rode esse script para preprocessar os dados baixados do formulario de votos
 Ah, o csv do formulario de votos deve estar em **data/raw_data**
 
+# quem_vai_jogar/quem_vai_jogar.csv
+Marcar com 1, quem for jogar
+
 # More info
 #### Ratings
 Será considerado os ratings dados na ultima tabela colocada no projeto.
