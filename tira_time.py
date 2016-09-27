@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pandas as pd
-from random import randint
+from random import randint, shuffle
 from dao import JogadorDAO
 from time_futebol import TimeFutebol
 
@@ -18,8 +18,8 @@ class TiraTime:
 	def tira_time(self, num_times, method='elevador'):
 		print ("")
 		num_times = int(num_times)
-		jogadores = JogadorDAO().get_jogadores()
-		self.jogadores = sorted(jogadores, key=lambda x: x.get_media_pontos(), reverse=True)
+		self.jogadores = JogadorDAO().get_jogadores()
+		shuffle(self.jogadores)
 		jogadores_df = self.get_jogadores_df(self.jogadores)
 
 		print ("=============================================================")
@@ -76,11 +76,11 @@ class TiraTime:
 				if len(self.jogadores) == 0:
 					break
 
-				melhor_jogador = self.jogadores[0]
+				melhor_jogador = self.get_melhor_jogador(self.jogadores)
 				time.add_jogador(melhor_jogador)
 				
 				#jogador ja foi alocado pro time, remove ele
-				self.jogadores = self.jogadores[1:]
+				self.jogadores.remove(melhor_jogador)
 
 				#ordena times do pior para o melhor para o pior começar escolhendo
 				times = sorted(times, key=lambda x: x.get_pontos_time())
@@ -210,3 +210,10 @@ class TiraTime:
 		jogadores_df = pd.DataFrame(jogadores_json)
 
 		return jogadores_df
+
+	def get_melhor_jogador(self, jogadores):
+		melhor = jogadores[0]
+		for jogador in jogadores:
+			if jogador.get_media_pontos() > melhor.get_media_pontos():
+				melhor = jogador
+		return melhor
