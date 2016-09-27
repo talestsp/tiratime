@@ -7,6 +7,6 @@ class Jogador():
 		self.nome = nome
 
 	def get_media_pontos(self):
-		return sum(self.ratings) / float(len(self.ratings))
+		return round(sum(self.ratings) / float(len(self.ratings)), 3)
 
 

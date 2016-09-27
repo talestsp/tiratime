@@ -24,7 +24,7 @@ class TiraTime:
 
 		print ("=============================================================")
 		print ("Total jogadores:", len(self.jogadores))
-		print (jogadores_df[['jogador', 'points', 'n_ratings']])
+		print (jogadores_df.sort('points', ascending=False)[['jogador', 'points', 'n_ratings']])
 		print ("=============================================================")
 		print ("\n\n")
 
