@@ -23,7 +23,8 @@ class TiraTime:
 		jogadores_df = self.get_jogadores_df(self.jogadores)
 
 		print ("=============================================================")
-		print ("Total jogadores:", len(self.jogadores))
+		print ("Total jogadores:", "[", len(self.jogadores), "]")
+		print ("Media geral:", "[", jogadores_df.points.mean().round(decimals=3), "]")
 		print (jogadores_df.sort('points', ascending=False)[['jogador', 'points', 'n_ratings']])
 		print ("=============================================================")
 		print ("\n\n")
