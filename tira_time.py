@@ -20,10 +20,11 @@ class TiraTime:
 		num_times = int(num_times)
 		jogadores = JogadorDAO().get_jogadores()
 		self.jogadores = sorted(jogadores, key=lambda x: x.get_media_pontos(), reverse=True)
-		
+		jogadores_df = self.get_jogadores_df(self.jogadores)
+
 		print ("=============================================================")
 		print ("Total jogadores:", len(self.jogadores))
-		print (self.get_jogadores_df(self.jogadores))
+		print (jogadores_df[['jogador', 'points', 'n_ratings']])
 		print ("=============================================================")
 		print ("\n\n")
 
@@ -156,19 +157,18 @@ class TiraTime:
 		for time in times:
 		
 			for jogador in time.jogadores:
-				jogador_json = {"time": time.nome, "jogador": jogador.nome, "pontos_jogador": jogador.get_media_pontos(), 'ratings': str(jogador.ratings)} 
+				jogador_json = {"time": time.nome, "jogador": jogador.nome, "points": jogador.get_media_pontos(), 'n_ratings': len(jogador.ratings)} 
 				times_json.append(jogador_json)
 
-		cols = ["jogador", "pontos_jogador", "ratings"]
 		times_df = pd.DataFrame(times_json)
 
 		for time in times_df.time.drop_duplicates().tolist():
 			time_df = times_df[ times_df['time'] == time ]
 			print ("**** TIME", time, "****")
-			print ("Pontuacao do time: [", round(time_df['pontos_jogador'].sum(), 3), "]")
-			print ("Media do jogador: [", round(time_df['pontos_jogador'].mean(), 3), "]")
+			print ("Pontuacao do time: [", round(time_df['points'].sum(), 3), "]")
+			print ("Media do time: [", round(time_df['points'].mean(), 3), "]")
 			print ("")
-			print (time_df[cols])
+			print (time_df[['jogador', 'points', 'n_ratings']])
 			print ("************************************************************")
 			print ("")
 
@@ -178,17 +178,16 @@ class TiraTime:
 			return
 
 		jogadores_json = []
-		cols = ["time", "jogador", "pontos_jogador", "ratings"]
 
 		for j in self.jogadores:
-			jogador = {"jogador": j.nome, "pontos_jogador": j.get_media_pontos(), "ratings": j.ratings}
+			jogador = {"jogador": j.nome, "points": j.get_media_pontos(), "n_ratings": len(j.ratings)}
 			jogadores_json.append(jogador)
 
 		sobrou_df = pd.DataFrame(jogadores_json)
 		sobrou_df['time'] = "Sem Time"
 
 		print ("\n\nSobraram os seguintes jogadores")
-		print (sobrou_df[cols])
+		print (sobrou_df[['jogador', 'points', 'n_ratings']])
 		print ("********************************")
 
 	def completou_times(self, times):
@@ -203,9 +202,26 @@ class TiraTime:
 		for jogador in jogadores:
 			nome = jogador.nome
 			points = jogador.get_media_pontos()
-			ratings = str(jogador.ratings)
+			ratings = jogador.ratings
 
-			jogador_dict = {"nome": nome, "points": points, "ratings": ratings}
+			jogador_dict = {"jogador": nome, "points": points, "n_ratings": len(ratings)}
 			jogadores_json.append(jogador_dict)
 
-		return pd.DataFrame(jogadores_json) 
+		return pd.DataFrame(jogadores_json)
+
+	def quem_vai_jogar(self, jogadores_df):
+		vai_jogar = []
+		print ("Pressione <Enter> para confirmar...")
+		print ("Pressione qualquer outra coisa para negar...")
+
+		for nome in jogadores_df['jogador'].iteritems():
+			nome = nome[1]
+			print ("")
+			resp = raw_input(nome.upper() + " vai jogar?")
+			if len(resp) == 0:
+				vai_jogar.append(nome)
+				print (nome + " vai")
+			else:
+				print (nome + " não vai")
+
+		return vai_jogar

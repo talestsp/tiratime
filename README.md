@@ -11,6 +11,10 @@
 
 usa o pip install para instalar essas libs
 
+# data/preproc.py
+Rode esse script para preprocessar os dados baixados do formulario de votos
+Ah, o csv do formulario de votos deve estar em **data/raw_data**
+
 # More info
 #### Ratings
 Será considerado os ratings dados na ultima tabela colocada no projeto.

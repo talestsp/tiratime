@@ -13,19 +13,19 @@ class JogadorDAO:
 		self.data = self.load_data()
 
 	def load_data(self):
-		data_files = listdir("data/")
+		data_all = listdir("data/")
+		data_files = []
 
 		#remove o que nao for arquivo de dados
-		for f in data_files:
-			if ".csv" not in f:
-				data_files.remove(f)
+		for f in data_all:
+			if (".csv" in f) and (f[-1] != "~"):
+				data_files.append(f)
 
 		data_files = sorted(data_files, reverse=True)
 
 		data = pd.DataFrame()
 
 		for data_file in data_files:
-
 			file_data = pd.read_csv(self.DATA_DIR + data_file)
 
 			# insere no DF o numero da tabela de ratings...
@@ -34,6 +34,7 @@ class JogadorDAO:
 			file_data['source'] = data_file
 
 			data = data.append(file_data)
+		data['Rating'] = data['Rating'].astype(float)
 
 		return data
 
@@ -55,7 +56,7 @@ class JogadorDAO:
 			recent_jogador_data = all_jogador_data[ all_jogador_data['source'] == recent_source_jogador_data ]
 
 			util_data = util_data.append(recent_jogador_data)
-
+			
 		return util_data
 
 	def get_jogadores(self, ):
