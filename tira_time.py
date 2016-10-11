@@ -61,6 +61,8 @@ class TiraTime:
 		self.show_times(times)
 		self.show_jogadores_sobraram()
 
+		return times
+
 	def start_times_elevador(self, num_times):
 		times = []
 
@@ -96,6 +98,8 @@ class TiraTime:
 
 		self.show_times(times)
 		self.show_jogadores_sobraram()
+
+		return times
 
 
 	def start_times_foco_media(self, num_times):
