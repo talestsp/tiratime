@@ -32,4 +32,12 @@ else:
 
 
 tt = TiraTime(tamanho_times=TAMANHO_TIMES)
-tt.tira_time(num_times=NUMERO_DE_TIMES, method=METODO_DE_TIRAR_TIME)
+times = tt.tira_time(num_times=NUMERO_DE_TIMES, method=METODO_DE_TIRAR_TIME)
+
+
+medias = []
+
+for time in times:
+	medias.append(time.get_pontos_time() / time.tamanho_time())
+
+print (medias)
