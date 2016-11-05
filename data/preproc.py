@@ -1,9 +1,19 @@
+'''
+Script para gerar o arquivo de ratings a partir do csv baixado com os dados do form
+'''
+
+
 import pandas as pd
 
-raw_data_path_file = "data/raw_data/raw_data1.csv"
+raw_data_path_file = "data/raw_data/raw_data2.csv"
 
 raw_data = pd.read_csv(raw_data_path_file)
-del raw_data["Indicação de data e hora"]
+
+if "Indicação de data e hora" in raw_data.columns.tolist():
+    del raw_data["Indicação de data e hora"]
+
+if "Digite seu nome" in raw_data.columns.tolist():
+    del raw_data["Digite seu nome"]
 
 cols = raw_data.columns.tolist()
 
@@ -26,4 +36,4 @@ for row_jogador in cols:
 
 data = pd.DataFrame(data_json).dropna()
 
-data.to_csv("data/1.csv", index=False)
+data.to_csv("data/2.csv", index=False)

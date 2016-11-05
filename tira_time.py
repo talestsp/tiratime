@@ -5,29 +5,39 @@ import pandas as pd
 from random import randint, shuffle
 from dao import JogadorDAO
 from time_futebol import TimeFutebol
+from jogador import Jogador
 
 class TiraTime:
 
-	jogadores = []
-	nomes_times = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
-	tamanho_times = None
+	nomes_times = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "H", "I"]
 
-	def __init__(self, tamanho_times):
-		self.tamanho_times = int(tamanho_times)
+	def __init__(self, ratings_filename, new_players=None):
+		'''
+		ratings_filename: nome do csv com os ratings dos jogadores
 
-	def tira_time(self, num_times, method='elevador'):
-		print ("")
+		new_players: 
+					lista de dicionario estilo json
+					cada dicionario para um jogador com as keys 'jogador' e 'ratings'
+					'jogador' eh uma string com o nome
+					'ratings' eh uma lista de ratings
+					exemplo
+					new_players = [{"Nome": "Fulano", "ratings": [3.1, 3.5]}]
+		'''
+		self.ratings_filename = ratings_filename
+		self.new_players = new_players
+
+	def tira_time(self, num_times, tamanho_times, method='elevador'):
 		num_times = int(num_times)
-		self.jogadores = JogadorDAO().get_jogadores()
+		tamanho_times = int(tamanho_times)
+
+		self.jogadores = JogadorDAO(self.ratings_filename).get_jogadores_do_dia()
+		if self.new_players is not None:
+			self.jogadores = self.add_new_players(self.jogadores, self.new_players)
+
 		shuffle(self.jogadores)
 		jogadores_df = self.get_jogadores_df(self.jogadores)
 
-		print ("=============================================================")
-		print ("Total jogadores:", "[", len(self.jogadores), "]")
-		print ("Media geral:", "[", jogadores_df.points.mean().round(decimals=3), "]")
-		print (jogadores_df.sort('points', ascending=False)[['jogador', 'points', 'n_ratings']])
-		print ("=============================================================")
-		print ("\n\n")
+		self.show_jogadores_do_dia(jogadores_df)
 
 		# method = elevador
 		# implementa o convencional tira time em rodadas
@@ -41,25 +51,34 @@ class TiraTime:
 		# média geral é a média de TODOS os jogadores do raxa
 
 		if method == "elevador":
-			times = self.tira_time_elevador(num_times)
+			times = self.tira_time_elevador(num_times, tamanho_times)
+
+			self.show_times(times)
+			self.show_jogadores_sobraram()
 		
 		elif method == "foco_media":
 			media_geral_jogadores = self.get_jogadores_df(self.jogadores)["points"].mean()
-			times = self.tira_time_foco_media(num_times, media_geral_jogadores)
+			times = self.tira_time_foco_media(num_times, tamanho_times, media_geral_jogadores)
+
+			self.show_times(times)
+			self.show_jogadores_sobraram()
 			
 		else:
-			print ("Método para escolha de times não reconhecido")
-			return
+			raise Exception("Método para escolha de times não reconhecido")
 
 		return times
 
+	def add_new_players(self, jogadores, new_players):
+		for new_player in new_players:
+			jogador = Jogador(nome=new_player['jogador'], ratings=new_player['ratings'])
+			jogadores.append(jogador)
 
-	def tira_time_elevador(self, num_times):
+		return jogadores
+
+
+	def tira_time_elevador(self, num_times, tamanho_times):
 		times = self.start_times_elevador(num_times)
-		times = self.rodadas_elevador(times)
-
-		self.show_times(times)
-		self.show_jogadores_sobraram()
+		times = self.rodadas_elevador(times, tamanho_times)
 
 		return times
 
@@ -70,10 +89,11 @@ class TiraTime:
 			nome = self.nomes_times[i]
 			times.append( TimeFutebol(nome=nome) )
 
+		shuffle(times)
 		return times
 
-	def rodadas_elevador(self, times):
-		while (not self.completou_times(times)) and (len(self.jogadores) != 0):
+	def rodadas_elevador(self, times, tamanho_times):
+		while (not self.completou_times(times, tamanho_times)) and (len(self.jogadores) != 0):
 
 			for time in times:
 				if len(self.jogadores) == 0:
@@ -90,17 +110,11 @@ class TiraTime:
 
 		return times
 
-
-
-	def tira_time_foco_media(self, num_times, media_geral_jogadores):
+	def tira_time_foco_media(self, num_times, tamanho_times, media_geral_jogadores):
 		times = self.start_times_foco_media(num_times)
-		times = self.rodadas_foco_media(times, media_geral_jogadores)
-
-		self.show_times(times)
-		self.show_jogadores_sobraram()
+		times = self.rodadas_foco_media(times, tamanho_times, media_geral_jogadores)
 
 		return times
-
 
 	def start_times_foco_media(self, num_times):
 		times = []
@@ -118,8 +132,8 @@ class TiraTime:
 
 		return times
 
-	def rodadas_foco_media(self, times, media_geral_jogadores):
-		while (not self.completou_times(times)) and (len(self.jogadores) != 0):
+	def rodadas_foco_media(self, times, tamanho_times, media_geral_jogadores):
+		while (not self.completou_times(times, tamanho_times)) and (len(self.jogadores) != 0):
 
 			for time in times:
 				if len(self.jogadores) == 0:
@@ -150,54 +164,9 @@ class TiraTime:
 	def mean(self, lista):
 		return sum(lista) / float(len(lista))
 
-
-
-
-
-
-
-	def show_times(self, times):
-		times_json = []
-		
+	def completou_times(self, times, tamanho_times):
 		for time in times:
-		
-			for jogador in time.jogadores:
-				jogador_json = {"time": time.nome, "jogador": jogador.nome, "points": jogador.get_media_pontos(), 'n_ratings': len(jogador.ratings)} 
-				times_json.append(jogador_json)
-
-		times_df = pd.DataFrame(times_json)
-
-		for time in times_df.time.drop_duplicates().tolist():
-			time_df = times_df[ times_df['time'] == time ]
-			print ("**** TIME", time, "****")
-			print ("Pontuacao do time: [", round(time_df['points'].sum(), 3), "]")
-			print ("Media do time: [", round(time_df['points'].mean(), 3), "]")
-			print ("")
-			print (time_df[['jogador', 'points', 'n_ratings']])
-			print ("************************************************************")
-			print ("")
-
-	def show_jogadores_sobraram(self):
-		if len(self.jogadores) == 0:
-			print ("Não sobrou jogador")
-			return
-
-		jogadores_json = []
-
-		for j in self.jogadores:
-			jogador = {"jogador": j.nome, "points": j.get_media_pontos(), "n_ratings": len(j.ratings)}
-			jogadores_json.append(jogador)
-
-		sobrou_df = pd.DataFrame(jogadores_json)
-		sobrou_df['time'] = "Sem Time"
-
-		print ("\n\nSobraram os seguintes jogadores")
-		print (sobrou_df[['jogador', 'points', 'n_ratings']])
-		print ("********************************")
-
-	def completou_times(self, times):
-		for time in times:
-			if time.tamanho_time() < self.tamanho_times:
+			if time.tamanho_time() < tamanho_times:
 				return False
 		return True
 
@@ -222,3 +191,53 @@ class TiraTime:
 			if jogador.get_media_pontos() > melhor.get_media_pontos():
 				melhor = jogador
 		return melhor
+
+
+	def show_jogadores_do_dia(self, jogadores_df):
+		print ("")
+		print ("=============================================================")
+		print ("Total jogadores:", "[", len(self.jogadores), "]")
+		print ("Media geral:", "[", round(jogadores_df.points.mean(), 3), "]")
+		print (jogadores_df.sort_values(by='points', ascending=False)[['jogador', 'points', 'n_ratings']])
+		print ("=============================================================")
+		print ("\n\n")
+
+	def show_times(self, times):
+		times_json = []
+		
+		for time in times:
+		
+			for jogador in time.jogadores:
+				jogador_json = {"time": time.nome, "jogador": jogador.nome, "points": jogador.get_media_pontos(), 'n_ratings': len(jogador.ratings)} 
+				times_json.append(jogador_json)
+
+		times_df = pd.DataFrame(times_json)
+
+		for time in times_df.time.drop_duplicates().tolist():
+			time_df = times_df[ times_df['time'] == time ]
+			print ("**** TIME", time, "****")
+			print ("Pontuacao do time: [", round(time_df['points'].sum(), 3), "]")
+			print ("Media do time: [", round(time_df['points'].mean(), 3), "]")
+			print ("")
+			print (time_df[['jogador', 'points', 'n_ratings']].sort_values(by="points", ascending=False))
+			print ("************************************************************")
+			print ("")
+
+	def show_jogadores_sobraram(self):
+		if len(self.jogadores) == 0:
+			print ("Não sobrou jogador")
+			return
+
+		jogadores_json = []
+
+		for j in self.jogadores:
+			jogador = {"jogador": j.nome, "points": j.get_media_pontos(), "n_ratings": len(j.ratings)}
+			jogadores_json.append(jogador)
+
+		sobrou_df = pd.DataFrame(jogadores_json)
+		sobrou_df['time'] = "Sem Time"
+
+		print ("\n\nSobraram os seguintes jogadores")
+		print (sobrou_df[['jogador', 'points', 'n_ratings']])
+		print ("********************************")
+

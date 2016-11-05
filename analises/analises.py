@@ -52,10 +52,11 @@ def centroid_closest_voters(data, ratings=None, erro_default=3):
 	return voting_distances
 
 
-path = "analises/data/2.csv"
-data = pd.read_csv(path)
+path = "data/raw_data/raw_data2.csv"
+raw_data = pd.read_csv(path)
 
-data = clean_data(data)
+data = clean_data(raw_data)
+
 ratings = summarize_players(data)
 voting_distances = centroid_closest_voters(data, ratings)
 

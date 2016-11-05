@@ -1,6 +1,4 @@
 class Jogador():
-	nome = ""
-	ratings = None
 
 	def __init__(self, nome, ratings):
 		self.ratings = ratings
