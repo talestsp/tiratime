@@ -35,7 +35,27 @@ class JogadorDAO:
 
 		return util_data
 
-	def get_jogadores_do_dia(self):
+	def get_jogadores_do_dia_pelo_csv(self):
+		'''
+		Retorna uma lista dos jogadores do dia do raxa
+		'''
+		lista_nomes_jogadores = self.get_lista_jogadores()
+		lista_jogadores = []
+
+		data_util = self.get_util_data()
+
+		for nome_jogador in lista_nomes_jogadores:
+			if nome_jogador in data_util.Jogador.tolist():		
+				jogador_data = data_util[ data_util['Jogador'] == nome_jogador ]
+				ratings = jogador_data['Rating'].tolist()
+
+				jogador = Jogador(nome=nome_jogador, ratings=ratings)
+
+				lista_jogadores.append(jogador)
+
+		return lista_jogadores
+
+	def get_jogadores_do_dia_pela_lista(self, lista_ids):
 		'''
 		Retorna uma lista dos jogadores do dia do raxa
 		'''

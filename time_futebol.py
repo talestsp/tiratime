@@ -1,3 +1,5 @@
+from pandas import DataFrame
+
 class TimeFutebol:
 
 	def __init__(self, nome):
@@ -27,3 +29,14 @@ class TimeFutebol:
 		for j in self.jogadores:
 			pontos.append(j.get_media_pontos())
 		return pontos
+
+	def get_time_df(self):
+		times_json = []
+		
+		for jogador in self.jogadores:
+			jogador_json = {"time": self.nome, "jogador": jogador.nome, "points": jogador.get_media_pontos(), 'n_ratings': len(jogador.ratings)} 
+			times_json.append(jogador_json)
+
+		time_df = DataFrame(times_json)
+
+		return time_df 

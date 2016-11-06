@@ -30,7 +30,7 @@ class TiraTime:
 		num_times = int(num_times)
 		tamanho_times = int(tamanho_times)
 
-		self.jogadores = JogadorDAO(self.ratings_filename).get_jogadores_do_dia()
+		self.jogadores = JogadorDAO(self.ratings_filename).get_jogadores_do_dia_pelo_csv()
 		if self.new_players is not None:
 			self.jogadores = self.add_new_players(self.jogadores, self.new_players)
 
@@ -203,18 +203,12 @@ class TiraTime:
 		print ("\n\n")
 
 	def show_times(self, times):
-		times_json = []
+		times_df = pd.DataFrame()
 		
 		for time in times:
-		
-			for jogador in time.jogadores:
-				jogador_json = {"time": time.nome, "jogador": jogador.nome, "points": jogador.get_media_pontos(), 'n_ratings': len(jogador.ratings)} 
-				times_json.append(jogador_json)
+			time_df = time.get_time_df()			
+			times_df = times_df.append(time_df)
 
-		times_df = pd.DataFrame(times_json)
-
-		for time in times_df.time.drop_duplicates().tolist():
-			time_df = times_df[ times_df['time'] == time ]
 			print ("**** TIME", time, "****")
 			print ("Pontuacao do time: [", round(time_df['points'].sum(), 3), "]")
 			print ("Media do time: [", round(time_df['points'].mean(), 3), "]")

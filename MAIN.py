@@ -24,8 +24,20 @@ NUMERO_DE_TIMES = sys.argv[1]
 TAMANHO_TIMES = sys.argv[2]
 METODO_DE_TIRAR_TIME = sys.argv[3]
 
-tt = TiraTime(ratings_filename="2.csv", new_players=[{"jogador": "Fulano", "ratings": [3.2]}])
-times = tt.tira_time(num_times=NUMERO_DE_TIMES, tamanho_times=TAMANHO_TIMES, method=METODO_DE_TIRAR_TIME)
+ratings_filename="2.csv"
+new_players = [{"jogador": "FULANO TESTE", "ratings": [3.2, 3.8, 3.6]}]
+
+tt = TiraTime(	
+				ratings_filename=ratings_filename, 
+				new_players=new_players
+			 )
+
+
+times = tt.tira_time(	
+						num_times=NUMERO_DE_TIMES, 
+						tamanho_times=TAMANHO_TIMES, 
+						method=METODO_DE_TIRAR_TIME
+					)
 
 for time in times:
 	print(time)
