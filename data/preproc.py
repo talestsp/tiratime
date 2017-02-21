@@ -5,7 +5,7 @@ Script para gerar o arquivo de ratings a partir do csv baixado com os dados do f
 
 import pandas as pd
 
-raw_data_path_file = "data/raw_data/raw_data2.csv"
+raw_data_path_file = "data/raw_data/raw_data_3.csv"
 
 raw_data = pd.read_csv(raw_data_path_file)
 
@@ -36,4 +36,4 @@ for row_jogador in cols:
 
 data = pd.DataFrame(data_json).dropna()
 
-data.to_csv("data/2.csv", index=False)
+data.to_csv("data/3.csv", index=False)

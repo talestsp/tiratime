@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
+from numpy import var
 from tira_time import TiraTime
 
 # exemplo de como rodar 
@@ -24,8 +25,9 @@ NUMERO_DE_TIMES = sys.argv[1]
 TAMANHO_TIMES = sys.argv[2]
 METODO_DE_TIRAR_TIME = sys.argv[3]
 
-ratings_filename="2.csv"
+ratings_filename="3.csv"
 new_players = [{"jogador": "FULANO TESTE", "ratings": [3.2, 3.8, 3.6]}]
+new_players = None
 
 tt = TiraTime(	
 				ratings_filename=ratings_filename, 
@@ -33,11 +35,21 @@ tt = TiraTime(
 			 )
 
 
+
 times = tt.tira_time(	
-						num_times=NUMERO_DE_TIMES, 
-						tamanho_times=TAMANHO_TIMES, 
-						method=METODO_DE_TIRAR_TIME
-					)
+					num_times=NUMERO_DE_TIMES, 
+					tamanho_times=TAMANHO_TIMES, 
+					method=METODO_DE_TIRAR_TIME
+				)
+
+times_points = []
 
 for time in times:
-	print(time)
+	times_points.append(time.get_pontos_time() / int(TAMANHO_TIMES))
+
+print(var(times_points))
+print("\n\n\n")
+
+
+
+

@@ -198,7 +198,9 @@ class TiraTime:
 		print ("=============================================================")
 		print ("Total jogadores:", "[", len(self.jogadores), "]")
 		print ("Media geral:", "[", round(jogadores_df.points.mean(), 3), "]")
-		print (jogadores_df.sort_values(by='points', ascending=False)[['jogador', 'points', 'n_ratings']])
+		ranking = jogadores_df.sort_values(by='points', ascending=False)[['jogador', 'points', 'n_ratings']]
+		ranking.index = range(1, len(ranking) + 1)
+		print (ranking)
 		print ("=============================================================")
 		print ("\n\n")
 
@@ -209,7 +211,7 @@ class TiraTime:
 			time_df = time.get_time_df()			
 			times_df = times_df.append(time_df)
 
-			print ("**** TIME", time, "****")
+			print ("**** TIME", time.nome, "****")
 			print ("Pontuacao do time: [", round(time_df['points'].sum(), 3), "]")
 			print ("Media do time: [", round(time_df['points'].mean(), 3), "]")
 			print ("")

@@ -1,0 +1,2911 @@
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+19        BRUNO PAIVA   4.860         25
+5             SAMPAIO   4.295         22
+1                JAPA   4.096         26
+8          IGOR NEVES   3.913         23
+9              THYAGO   3.521         24
+13       IGOR MIRANDA   3.474         19
+3              ALISON   3.467         15
+22              PEDRO   3.458         24
+6               CHICO   3.458         24
+11              RAONI   3.318         11
+12              TALES   3.212         26
+0      MATHEUS CAMPOS   3.200         21
+14             CASSIO   3.185         27
+18            TIARAJU   3.167         21
+16              YCARO   3.118         17
+15  RICARDO FERNANDES   3.000          1
+4                KAWE   3.000         14
+20      BRUNO MIRANDA   2.980         25
+17              JULIO   2.630         23
+10           VINICIUS   2.550         10
+21              RENAN   2.478         23
+7                THEO   1.800         25
+2              DIRCEU   1.667         24
+23       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+22        BRUNO PAIVA   4.860         25
+16            SAMPAIO   4.295         22
+23               JAPA   4.096         26
+0          IGOR NEVES   3.913         23
+14             THYAGO   3.521         24
+17       IGOR MIRANDA   3.474         19
+2              ALISON   3.467         15
+9               CHICO   3.458         24
+15              PEDRO   3.458         24
+11              RAONI   3.318         11
+6               TALES   3.212         26
+20     MATHEUS CAMPOS   3.200         21
+3              CASSIO   3.185         27
+19            TIARAJU   3.167         21
+13              YCARO   3.118         17
+7   RICARDO FERNANDES   3.000          1
+18               KAWE   3.000         14
+5       BRUNO MIRANDA   2.980         25
+10              JULIO   2.630         23
+4            VINICIUS   2.550         10
+12              RENAN   2.478         23
+21               THEO   1.800         25
+1              DIRCEU   1.667         24
+8        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              CHICO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       PEDRO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+15        BRUNO PAIVA   4.860         25
+19            SAMPAIO   4.295         22
+22               JAPA   4.096         26
+7          IGOR NEVES   3.913         23
+3              THYAGO   3.521         24
+11       IGOR MIRANDA   3.474         19
+20             ALISON   3.467         15
+9               PEDRO   3.458         24
+16              CHICO   3.458         24
+5               RAONI   3.318         11
+6               TALES   3.212         26
+2      MATHEUS CAMPOS   3.200         21
+17             CASSIO   3.185         27
+4             TIARAJU   3.167         21
+18              YCARO   3.118         17
+21  RICARDO FERNANDES   3.000          1
+8                KAWE   3.000         14
+10      BRUNO MIRANDA   2.980         25
+13              JULIO   2.630         23
+0            VINICIUS   2.550         10
+23              RENAN   2.478         23
+12               THEO   1.800         25
+1              DIRCEU   1.667         24
+14       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           PEDRO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              CHICO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+18        BRUNO PAIVA   4.860         25
+17            SAMPAIO   4.295         22
+19               JAPA   4.096         26
+5          IGOR NEVES   3.913         23
+13             THYAGO   3.521         24
+8        IGOR MIRANDA   3.474         19
+4              ALISON   3.467         15
+23              PEDRO   3.458         24
+2               CHICO   3.458         24
+16              RAONI   3.318         11
+0               TALES   3.212         26
+6      MATHEUS CAMPOS   3.200         21
+9              CASSIO   3.185         27
+10            TIARAJU   3.167         21
+22              YCARO   3.118         17
+1   RICARDO FERNANDES   3.000          1
+21               KAWE   3.000         14
+15      BRUNO MIRANDA   2.980         25
+3               JULIO   2.630         23
+14           VINICIUS   2.550         10
+20              RENAN   2.478         23
+7                THEO   1.800         25
+12             DIRCEU   1.667         24
+11       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME B ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              CHICO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       PEDRO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+5         BRUNO PAIVA   4.860         25
+12            SAMPAIO   4.295         22
+4                JAPA   4.096         26
+1          IGOR NEVES   3.913         23
+16             THYAGO   3.521         24
+7        IGOR MIRANDA   3.474         19
+6              ALISON   3.467         15
+15              PEDRO   3.458         24
+0               CHICO   3.458         24
+2               RAONI   3.318         11
+9               TALES   3.212         26
+21     MATHEUS CAMPOS   3.200         21
+3              CASSIO   3.185         27
+17            TIARAJU   3.167         21
+20              YCARO   3.118         17
+14               KAWE   3.000         14
+18  RICARDO FERNANDES   3.000          1
+11      BRUNO MIRANDA   2.980         25
+13              JULIO   2.630         23
+10           VINICIUS   2.550         10
+19              RENAN   2.478         23
+23               THEO   1.800         25
+8              DIRCEU   1.667         24
+22       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME B ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+3         BRUNO PAIVA   4.860         25
+0             SAMPAIO   4.295         22
+2                JAPA   4.096         26
+16         IGOR NEVES   3.913         23
+20             THYAGO   3.521         24
+1        IGOR MIRANDA   3.474         19
+12             ALISON   3.467         15
+18              PEDRO   3.458         24
+5               CHICO   3.458         24
+7               RAONI   3.318         11
+14              TALES   3.212         26
+21     MATHEUS CAMPOS   3.200         21
+13             CASSIO   3.185         27
+4             TIARAJU   3.167         21
+15              YCARO   3.118         17
+11  RICARDO FERNANDES   3.000          1
+9                KAWE   3.000         14
+23      BRUNO MIRANDA   2.980         25
+17              JULIO   2.630         23
+22           VINICIUS   2.550         10
+19              RENAN   2.478         23
+8                THEO   1.800         25
+10             DIRCEU   1.667         24
+6        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+2         BRUNO PAIVA   4.860         25
+0             SAMPAIO   4.295         22
+19               JAPA   4.096         26
+17         IGOR NEVES   3.913         23
+6              THYAGO   3.521         24
+21       IGOR MIRANDA   3.474         19
+16             ALISON   3.467         15
+20              CHICO   3.458         24
+15              PEDRO   3.458         24
+13              RAONI   3.318         11
+3               TALES   3.212         26
+4      MATHEUS CAMPOS   3.200         21
+9              CASSIO   3.185         27
+11            TIARAJU   3.167         21
+18              YCARO   3.118         17
+1   RICARDO FERNANDES   3.000          1
+7                KAWE   3.000         14
+10      BRUNO MIRANDA   2.980         25
+14              JULIO   2.630         23
+23           VINICIUS   2.550         10
+8               RENAN   2.478         23
+12               THEO   1.800         25
+5              DIRCEU   1.667         24
+22       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME B ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              PEDRO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       CHICO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+16        BRUNO PAIVA   4.860         25
+7             SAMPAIO   4.295         22
+20               JAPA   4.096         26
+18         IGOR NEVES   3.913         23
+2              THYAGO   3.521         24
+23       IGOR MIRANDA   3.474         19
+11             ALISON   3.467         15
+21              CHICO   3.458         24
+10              PEDRO   3.458         24
+15              RAONI   3.318         11
+4               TALES   3.212         26
+9      MATHEUS CAMPOS   3.200         21
+22             CASSIO   3.185         27
+13            TIARAJU   3.167         21
+3               YCARO   3.118         17
+1                KAWE   3.000         14
+8   RICARDO FERNANDES   3.000          1
+0       BRUNO MIRANDA   2.980         25
+6               JULIO   2.630         23
+5            VINICIUS   2.550         10
+12              RENAN   2.478         23
+19               THEO   1.800         25
+14             DIRCEU   1.667         24
+17       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME B ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           PEDRO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              CHICO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+14        BRUNO PAIVA   4.860         25
+6             SAMPAIO   4.295         22
+11               JAPA   4.096         26
+21         IGOR NEVES   3.913         23
+19             THYAGO   3.521         24
+22       IGOR MIRANDA   3.474         19
+3              ALISON   3.467         15
+20              PEDRO   3.458         24
+5               CHICO   3.458         24
+17              RAONI   3.318         11
+1               TALES   3.212         26
+4      MATHEUS CAMPOS   3.200         21
+18             CASSIO   3.185         27
+15            TIARAJU   3.167         21
+13              YCARO   3.118         17
+12  RICARDO FERNANDES   3.000          1
+7                KAWE   3.000         14
+9       BRUNO MIRANDA   2.980         25
+10              JULIO   2.630         23
+2            VINICIUS   2.550         10
+16              RENAN   2.478         23
+0                THEO   1.800         25
+8              DIRCEU   1.667         24
+23       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+16        BRUNO PAIVA   4.860         25
+17            SAMPAIO   4.295         22
+20               JAPA   4.096         26
+15         IGOR NEVES   3.913         23
+11             THYAGO   3.521         24
+9        IGOR MIRANDA   3.474         19
+23             ALISON   3.467         15
+5               CHICO   3.458         24
+7               PEDRO   3.458         24
+8               RAONI   3.318         11
+3               TALES   3.212         26
+10     MATHEUS CAMPOS   3.200         21
+12             CASSIO   3.185         27
+13            TIARAJU   3.167         21
+6               YCARO   3.118         17
+2   RICARDO FERNANDES   3.000          1
+22               KAWE   3.000         14
+19      BRUNO MIRANDA   2.980         25
+21              JULIO   2.630         23
+0            VINICIUS   2.550         10
+1               RENAN   2.478         23
+4                THEO   1.800         25
+14             DIRCEU   1.667         24
+18       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              CHICO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       PEDRO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+16        BRUNO PAIVA   4.860         25
+0             SAMPAIO   4.295         22
+23               JAPA   4.096         26
+19         IGOR NEVES   3.913         23
+21             THYAGO   3.521         24
+13       IGOR MIRANDA   3.474         19
+5              ALISON   3.467         15
+8               PEDRO   3.458         24
+4               CHICO   3.458         24
+15              RAONI   3.318         11
+9               TALES   3.212         26
+18     MATHEUS CAMPOS   3.200         21
+6              CASSIO   3.185         27
+7             TIARAJU   3.167         21
+12              YCARO   3.118         17
+2   RICARDO FERNANDES   3.000          1
+10               KAWE   3.000         14
+1       BRUNO MIRANDA   2.980         25
+14              JULIO   2.630         23
+22           VINICIUS   2.550         10
+3               RENAN   2.478         23
+17               THEO   1.800         25
+20             DIRCEU   1.667         24
+11       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              CHICO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       PEDRO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+4         BRUNO PAIVA   4.860         25
+9             SAMPAIO   4.295         22
+15               JAPA   4.096         26
+20         IGOR NEVES   3.913         23
+5              THYAGO   3.521         24
+1        IGOR MIRANDA   3.474         19
+6              ALISON   3.467         15
+23              CHICO   3.458         24
+19              PEDRO   3.458         24
+17              RAONI   3.318         11
+3               TALES   3.212         26
+8      MATHEUS CAMPOS   3.200         21
+12             CASSIO   3.185         27
+21            TIARAJU   3.167         21
+10              YCARO   3.118         17
+13  RICARDO FERNANDES   3.000          1
+16               KAWE   3.000         14
+22      BRUNO MIRANDA   2.980         25
+18              JULIO   2.630         23
+7            VINICIUS   2.550         10
+0               RENAN   2.478         23
+14               THEO   1.800         25
+11             DIRCEU   1.667         24
+2        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME B ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              PEDRO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       CHICO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+15        BRUNO PAIVA   4.860         25
+8             SAMPAIO   4.295         22
+2                JAPA   4.096         26
+22         IGOR NEVES   3.913         23
+18             THYAGO   3.521         24
+7        IGOR MIRANDA   3.474         19
+11             ALISON   3.467         15
+0               PEDRO   3.458         24
+21              CHICO   3.458         24
+19              RAONI   3.318         11
+23              TALES   3.212         26
+17     MATHEUS CAMPOS   3.200         21
+4              CASSIO   3.185         27
+5             TIARAJU   3.167         21
+9               YCARO   3.118         17
+10               KAWE   3.000         14
+20  RICARDO FERNANDES   3.000          1
+14      BRUNO MIRANDA   2.980         25
+6               JULIO   2.630         23
+16           VINICIUS   2.550         10
+12              RENAN   2.478         23
+13               THEO   1.800         25
+1              DIRCEU   1.667         24
+3        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           PEDRO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              CHICO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+11        BRUNO PAIVA   4.860         25
+16            SAMPAIO   4.295         22
+9                JAPA   4.096         26
+17         IGOR NEVES   3.913         23
+13             THYAGO   3.521         24
+0        IGOR MIRANDA   3.474         19
+18             ALISON   3.467         15
+20              CHICO   3.458         24
+8               PEDRO   3.458         24
+12              RAONI   3.318         11
+15              TALES   3.212         26
+3      MATHEUS CAMPOS   3.200         21
+19             CASSIO   3.185         27
+10            TIARAJU   3.167         21
+7               YCARO   3.118         17
+22  RICARDO FERNANDES   3.000          1
+23               KAWE   3.000         14
+6       BRUNO MIRANDA   2.980         25
+4               JULIO   2.630         23
+5            VINICIUS   2.550         10
+1               RENAN   2.478         23
+2                THEO   1.800         25
+14             DIRCEU   1.667         24
+21       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              PEDRO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       CHICO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+7         BRUNO PAIVA   4.860         25
+12            SAMPAIO   4.295         22
+19               JAPA   4.096         26
+10         IGOR NEVES   3.913         23
+2              THYAGO   3.521         24
+8        IGOR MIRANDA   3.474         19
+17             ALISON   3.467         15
+23              PEDRO   3.458         24
+3               CHICO   3.458         24
+9               RAONI   3.318         11
+16              TALES   3.212         26
+15     MATHEUS CAMPOS   3.200         21
+0              CASSIO   3.185         27
+13            TIARAJU   3.167         21
+20              YCARO   3.118         17
+11  RICARDO FERNANDES   3.000          1
+14               KAWE   3.000         14
+5       BRUNO MIRANDA   2.980         25
+18              JULIO   2.630         23
+1            VINICIUS   2.550         10
+6               RENAN   2.478         23
+22               THEO   1.800         25
+21             DIRCEU   1.667         24
+4        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME D ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              CHICO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       PEDRO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+19        BRUNO PAIVA   4.860         25
+7             SAMPAIO   4.295         22
+17               JAPA   4.096         26
+21         IGOR NEVES   3.913         23
+22             THYAGO   3.521         24
+1        IGOR MIRANDA   3.474         19
+16             ALISON   3.467         15
+15              CHICO   3.458         24
+20              PEDRO   3.458         24
+5               RAONI   3.318         11
+3               TALES   3.212         26
+0      MATHEUS CAMPOS   3.200         21
+8              CASSIO   3.185         27
+13            TIARAJU   3.167         21
+14              YCARO   3.118         17
+12  RICARDO FERNANDES   3.000          1
+10               KAWE   3.000         14
+6       BRUNO MIRANDA   2.980         25
+2               JULIO   2.630         23
+18           VINICIUS   2.550         10
+9               RENAN   2.478         23
+4                THEO   1.800         25
+11             DIRCEU   1.667         24
+23       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+3         BRUNO PAIVA   4.860         25
+9             SAMPAIO   4.295         22
+11               JAPA   4.096         26
+23         IGOR NEVES   3.913         23
+7              THYAGO   3.521         24
+18       IGOR MIRANDA   3.474         19
+20             ALISON   3.467         15
+8               CHICO   3.458         24
+17              PEDRO   3.458         24
+1               RAONI   3.318         11
+5               TALES   3.212         26
+21     MATHEUS CAMPOS   3.200         21
+10             CASSIO   3.185         27
+15            TIARAJU   3.167         21
+12              YCARO   3.118         17
+13               KAWE   3.000         14
+19  RICARDO FERNANDES   3.000          1
+0       BRUNO MIRANDA   2.980         25
+6               JULIO   2.630         23
+2            VINICIUS   2.550         10
+22              RENAN   2.478         23
+4                THEO   1.800         25
+16             DIRCEU   1.667         24
+14       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+3         BRUNO PAIVA   4.860         25
+16            SAMPAIO   4.295         22
+22               JAPA   4.096         26
+7          IGOR NEVES   3.913         23
+15             THYAGO   3.521         24
+12       IGOR MIRANDA   3.474         19
+6              ALISON   3.467         15
+8               PEDRO   3.458         24
+23              CHICO   3.458         24
+0               RAONI   3.318         11
+19              TALES   3.212         26
+17     MATHEUS CAMPOS   3.200         21
+13             CASSIO   3.185         27
+21            TIARAJU   3.167         21
+1               YCARO   3.118         17
+9   RICARDO FERNANDES   3.000          1
+4                KAWE   3.000         14
+20      BRUNO MIRANDA   2.980         25
+18              JULIO   2.630         23
+14           VINICIUS   2.550         10
+5               RENAN   2.478         23
+10               THEO   1.800         25
+11             DIRCEU   1.667         24
+2        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           PEDRO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              CHICO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+22        BRUNO PAIVA   4.860         25
+5             SAMPAIO   4.295         22
+23               JAPA   4.096         26
+0          IGOR NEVES   3.913         23
+2              THYAGO   3.521         24
+12       IGOR MIRANDA   3.474         19
+9              ALISON   3.467         15
+10              PEDRO   3.458         24
+18              CHICO   3.458         24
+6               RAONI   3.318         11
+21              TALES   3.212         26
+15     MATHEUS CAMPOS   3.200         21
+16             CASSIO   3.185         27
+3             TIARAJU   3.167         21
+1               YCARO   3.118         17
+20               KAWE   3.000         14
+14  RICARDO FERNANDES   3.000          1
+7       BRUNO MIRANDA   2.980         25
+19              JULIO   2.630         23
+13           VINICIUS   2.550         10
+8               RENAN   2.478         23
+17               THEO   1.800         25
+4              DIRCEU   1.667         24
+11       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              PEDRO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       CHICO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+21        BRUNO PAIVA   4.860         25
+16            SAMPAIO   4.295         22
+17               JAPA   4.096         26
+5          IGOR NEVES   3.913         23
+7              THYAGO   3.521         24
+6        IGOR MIRANDA   3.474         19
+4              ALISON   3.467         15
+0               PEDRO   3.458         24
+11              CHICO   3.458         24
+14              RAONI   3.318         11
+19              TALES   3.212         26
+2      MATHEUS CAMPOS   3.200         21
+22             CASSIO   3.185         27
+9             TIARAJU   3.167         21
+3               YCARO   3.118         17
+20  RICARDO FERNANDES   3.000          1
+18               KAWE   3.000         14
+1       BRUNO MIRANDA   2.980         25
+10              JULIO   2.630         23
+13           VINICIUS   2.550         10
+12              RENAN   2.478         23
+8                THEO   1.800         25
+23             DIRCEU   1.667         24
+15       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           PEDRO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              CHICO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+20        BRUNO PAIVA   4.860         25
+4             SAMPAIO   4.295         22
+21               JAPA   4.096         26
+6          IGOR NEVES   3.913         23
+2              THYAGO   3.521         24
+15       IGOR MIRANDA   3.474         19
+1              ALISON   3.467         15
+18              PEDRO   3.458         24
+10              CHICO   3.458         24
+22              RAONI   3.318         11
+19              TALES   3.212         26
+5      MATHEUS CAMPOS   3.200         21
+7              CASSIO   3.185         27
+0             TIARAJU   3.167         21
+16              YCARO   3.118         17
+9   RICARDO FERNANDES   3.000          1
+8                KAWE   3.000         14
+17      BRUNO MIRANDA   2.980         25
+12              JULIO   2.630         23
+23           VINICIUS   2.550         10
+3               RENAN   2.478         23
+13               THEO   1.800         25
+11             DIRCEU   1.667         24
+14       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+23        BRUNO PAIVA   4.860         25
+19            SAMPAIO   4.295         22
+20               JAPA   4.096         26
+9          IGOR NEVES   3.913         23
+6              THYAGO   3.521         24
+0        IGOR MIRANDA   3.474         19
+15             ALISON   3.467         15
+22              PEDRO   3.458         24
+16              CHICO   3.458         24
+11              RAONI   3.318         11
+12              TALES   3.212         26
+2      MATHEUS CAMPOS   3.200         21
+7              CASSIO   3.185         27
+13            TIARAJU   3.167         21
+14              YCARO   3.118         17
+17               KAWE   3.000         14
+18  RICARDO FERNANDES   3.000          1
+4       BRUNO MIRANDA   2.980         25
+1               JULIO   2.630         23
+10           VINICIUS   2.550         10
+8               RENAN   2.478         23
+21               THEO   1.800         25
+3              DIRCEU   1.667         24
+5        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME B ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+6         BRUNO PAIVA   4.860         25
+19            SAMPAIO   4.295         22
+7                JAPA   4.096         26
+8          IGOR NEVES   3.913         23
+18             THYAGO   3.521         24
+22       IGOR MIRANDA   3.474         19
+0              ALISON   3.467         15
+11              PEDRO   3.458         24
+15              CHICO   3.458         24
+12              RAONI   3.318         11
+9               TALES   3.212         26
+2      MATHEUS CAMPOS   3.200         21
+3              CASSIO   3.185         27
+13            TIARAJU   3.167         21
+10              YCARO   3.118         17
+5                KAWE   3.000         14
+17  RICARDO FERNANDES   3.000          1
+14      BRUNO MIRANDA   2.980         25
+23              JULIO   2.630         23
+4            VINICIUS   2.550         10
+1               RENAN   2.478         23
+20               THEO   1.800         25
+21             DIRCEU   1.667         24
+16       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           PEDRO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              CHICO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+4         BRUNO PAIVA   4.860         25
+3             SAMPAIO   4.295         22
+18               JAPA   4.096         26
+16         IGOR NEVES   3.913         23
+23             THYAGO   3.521         24
+14       IGOR MIRANDA   3.474         19
+20             ALISON   3.467         15
+21              PEDRO   3.458         24
+0               CHICO   3.458         24
+11              RAONI   3.318         11
+22              TALES   3.212         26
+12     MATHEUS CAMPOS   3.200         21
+8              CASSIO   3.185         27
+1             TIARAJU   3.167         21
+15              YCARO   3.118         17
+10               KAWE   3.000         14
+5   RICARDO FERNANDES   3.000          1
+2       BRUNO MIRANDA   2.980         25
+6               JULIO   2.630         23
+17           VINICIUS   2.550         10
+9               RENAN   2.478         23
+7                THEO   1.800         25
+13             DIRCEU   1.667         24
+19       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              CHICO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       PEDRO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+9         BRUNO PAIVA   4.860         25
+12            SAMPAIO   4.295         22
+22               JAPA   4.096         26
+14         IGOR NEVES   3.913         23
+17             THYAGO   3.521         24
+8        IGOR MIRANDA   3.474         19
+5              ALISON   3.467         15
+6               PEDRO   3.458         24
+7               CHICO   3.458         24
+13              RAONI   3.318         11
+1               TALES   3.212         26
+18     MATHEUS CAMPOS   3.200         21
+11             CASSIO   3.185         27
+3             TIARAJU   3.167         21
+23              YCARO   3.118         17
+4                KAWE   3.000         14
+0   RICARDO FERNANDES   3.000          1
+15      BRUNO MIRANDA   2.980         25
+10              JULIO   2.630         23
+16           VINICIUS   2.550         10
+20              RENAN   2.478         23
+19               THEO   1.800         25
+21             DIRCEU   1.667         24
+2        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              PEDRO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       CHICO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+16        BRUNO PAIVA   4.860         25
+15            SAMPAIO   4.295         22
+18               JAPA   4.096         26
+21         IGOR NEVES   3.913         23
+1              THYAGO   3.521         24
+0        IGOR MIRANDA   3.474         19
+19             ALISON   3.467         15
+13              PEDRO   3.458         24
+14              CHICO   3.458         24
+9               RAONI   3.318         11
+6               TALES   3.212         26
+7      MATHEUS CAMPOS   3.200         21
+11             CASSIO   3.185         27
+4             TIARAJU   3.167         21
+5               YCARO   3.118         17
+22               KAWE   3.000         14
+23  RICARDO FERNANDES   3.000          1
+2       BRUNO MIRANDA   2.980         25
+3               JULIO   2.630         23
+12           VINICIUS   2.550         10
+10              RENAN   2.478         23
+17               THEO   1.800         25
+8              DIRCEU   1.667         24
+20       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME A ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           PEDRO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              CHICO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+8         BRUNO PAIVA   4.860         25
+13            SAMPAIO   4.295         22
+3                JAPA   4.096         26
+12         IGOR NEVES   3.913         23
+2              THYAGO   3.521         24
+1        IGOR MIRANDA   3.474         19
+20             ALISON   3.467         15
+22              PEDRO   3.458         24
+19              CHICO   3.458         24
+11              RAONI   3.318         11
+16              TALES   3.212         26
+10     MATHEUS CAMPOS   3.200         21
+6              CASSIO   3.185         27
+9             TIARAJU   3.167         21
+18              YCARO   3.118         17
+0   RICARDO FERNANDES   3.000          1
+15               KAWE   3.000         14
+23      BRUNO MIRANDA   2.980         25
+14              JULIO   2.630         23
+17           VINICIUS   2.550         10
+21              RENAN   2.478         23
+4                THEO   1.800         25
+7              DIRCEU   1.667         24
+5        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              CHICO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       PEDRO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+23        BRUNO PAIVA   4.860         25
+19            SAMPAIO   4.295         22
+7                JAPA   4.096         26
+0          IGOR NEVES   3.913         23
+20             THYAGO   3.521         24
+11       IGOR MIRANDA   3.474         19
+4              ALISON   3.467         15
+21              CHICO   3.458         24
+13              PEDRO   3.458         24
+9               RAONI   3.318         11
+14              TALES   3.212         26
+22     MATHEUS CAMPOS   3.200         21
+17             CASSIO   3.185         27
+2             TIARAJU   3.167         21
+1               YCARO   3.118         17
+8   RICARDO FERNANDES   3.000          1
+6                KAWE   3.000         14
+16      BRUNO MIRANDA   2.980         25
+10              JULIO   2.630         23
+18           VINICIUS   2.550         10
+15              RENAN   2.478         23
+3                THEO   1.800         25
+12             DIRCEU   1.667         24
+5        IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           PEDRO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              CHICO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+17        BRUNO PAIVA   4.860         25
+21            SAMPAIO   4.295         22
+9                JAPA   4.096         26
+13         IGOR NEVES   3.913         23
+2              THYAGO   3.521         24
+12       IGOR MIRANDA   3.474         19
+11             ALISON   3.467         15
+1               PEDRO   3.458         24
+16              CHICO   3.458         24
+20              RAONI   3.318         11
+10              TALES   3.212         26
+15     MATHEUS CAMPOS   3.200         21
+23             CASSIO   3.185         27
+18            TIARAJU   3.167         21
+5               YCARO   3.118         17
+4   RICARDO FERNANDES   3.000          1
+22               KAWE   3.000         14
+0       BRUNO MIRANDA   2.980         25
+8               JULIO   2.630         23
+6            VINICIUS   2.550         10
+3               RENAN   2.478         23
+14               THEO   1.800         25
+7              DIRCEU   1.667         24
+19       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME B ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+             jogador  points  n_ratings
+0        BRUNO PAIVA   4.860         25
+1              PEDRO   3.458         24
+2     MATHEUS CAMPOS   3.200         21
+3  RICARDO FERNANDES   3.000          1
+4           VINICIUS   2.550         10
+5       IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+      jogador  points  n_ratings
+0  IGOR NEVES   3.913         23
+1      THYAGO   3.521         24
+2       CHICO   3.458         24
+3     TIARAJU   3.167         21
+4        KAWE   3.000         14
+5      DIRCEU   1.667         24
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME C ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+Total jogadores: [ 24 ]
+Media geral: [ 3.146 ]
+              jogador  points  n_ratings
+11        BRUNO PAIVA   4.860         25
+14            SAMPAIO   4.295         22
+21               JAPA   4.096         26
+20         IGOR NEVES   3.913         23
+9              THYAGO   3.521         24
+1        IGOR MIRANDA   3.474         19
+8              ALISON   3.467         15
+10              CHICO   3.458         24
+19              PEDRO   3.458         24
+12              RAONI   3.318         11
+18              TALES   3.212         26
+6      MATHEUS CAMPOS   3.200         21
+7              CASSIO   3.185         27
+3             TIARAJU   3.167         21
+22              YCARO   3.118         17
+13               KAWE   3.000         14
+17  RICARDO FERNANDES   3.000          1
+5       BRUNO MIRANDA   2.980         25
+4               JULIO   2.630         23
+2            VINICIUS   2.550         10
+23              RENAN   2.478         23
+0                THEO   1.800         25
+15             DIRCEU   1.667         24
+16       IGOR CANDEIA   1.652         23
+=============================================================
+
+
+
+**** TIME C ****
+Pontuacao do time: [ 18.72 ]
+Media do time: [ 3.12 ]
+
+          jogador  points  n_ratings
+0     BRUNO PAIVA   4.860         25
+1           CHICO   3.458         24
+2  MATHEUS CAMPOS   3.200         21
+3            KAWE   3.000         14
+4        VINICIUS   2.550         10
+5    IGOR CANDEIA   1.652         23
+************************************************************
+
+**** TIME D ****
+Pontuacao do time: [ 18.726 ]
+Media do time: [ 3.121 ]
+
+             jogador  points  n_ratings
+0         IGOR NEVES   3.913         23
+1             THYAGO   3.521         24
+2              PEDRO   3.458         24
+3            TIARAJU   3.167         21
+4  RICARDO FERNANDES   3.000          1
+5             DIRCEU   1.667         24
+************************************************************
+
+**** TIME A ****
+Pontuacao do time: [ 18.853 ]
+Media do time: [ 3.142 ]
+
+         jogador  points  n_ratings
+0           JAPA   4.096         26
+1   IGOR MIRANDA   3.474         19
+2          RAONI   3.318         11
+3         CASSIO   3.185         27
+4  BRUNO MIRANDA   2.980         25
+5           THEO   1.800         25
+************************************************************
+
+**** TIME B ****
+Pontuacao do time: [ 19.2 ]
+Media do time: [ 3.2 ]
+
+   jogador  points  n_ratings
+0  SAMPAIO   4.295         22
+1   ALISON   3.467         15
+2    TALES   3.212         26
+3    YCARO   3.118         17
+4    JULIO   2.630         23
+5    RENAN   2.478         23
+************************************************************
+
+Não sobrou jogador
+0.00105788020833
+
+
+
+
+
+
+
+
+
+
+Melhor variancia: 0.00105788020833
