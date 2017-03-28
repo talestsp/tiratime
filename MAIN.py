@@ -47,7 +47,7 @@ times_points = []
 for time in times:
 	times_points.append(time.get_pontos_time() / int(TAMANHO_TIMES))
 
-print(var(times_points))
+print("Variancia dos times:", var(times_points))
 print("\n\n\n")
 
 
