@@ -31,9 +31,9 @@ As tabelas serão prenchidas via Google Forms ou semelhante
 Nesse form vai ter uma foto do atleta (kkk) junto do nome
 Vc dá de 1 a 5 pontos nele
 
-####Metodo de tirar time
+#### Metodo de tirar time
 
-#####elevador
+##### elevador
 implementa o convencional tira time em rodadas os melhores n jogadores são os capitães em cada rodada cada capitão tira o melhor jogador disponível pro seu time o detalhe aqui é que em cada rodada, os times que estiverem pior escolhem primeiro
 
 ##### foco_media
