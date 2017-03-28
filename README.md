@@ -22,6 +22,7 @@ Ah, o csv do formulario de votos deve estar em **data/raw_data**
 Marcar com 1, quem for jogar
 
 # More info
+
 #### Ratings
 Será considerado os ratings dados na ultima tabela colocada no projeto.
 Se o jogador não tiver sido avaliado (ratiado) ele pega na tabela anterior e por aih vai
@@ -31,6 +32,7 @@ Nesse form vai ter uma foto do atleta (kkk) junto do nome
 Vc dá de 1 a 5 pontos nele
 
 ####Metodo de tirar time
+
 #####elevador
 implementa o convencional tira time em rodadas os melhores n jogadores são os capitães em cada rodada cada capitão tira o melhor jogador disponível pro seu time o detalhe aqui é que em cada rodada, os times que estiverem pior escolhem primeiro
 

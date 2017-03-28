@@ -31,6 +31,7 @@ Nesse form vai ter uma foto do atleta (kkk) junto do nome
 Vc dá de 1 a 5 pontos nele
 
 ####Metodo de tirar time
+
 #####elevador
 implementa o convencional tira time em rodadas os melhores n jogadores são os capitães em cada rodada cada capitão tira o melhor jogador disponível pro seu time o detalhe aqui é que em cada rodada, os times que estiverem pior escolhem primeiro
 
@@ -39,7 +40,9 @@ cada um dos n capitães são escolhido random em cada rodada o capitão escolhe 
 
 # Inserir novo jogador
 Colocar o 'nome' dele em quem_vai_jogar/quem_vai_jogar.csv
+
 Colocar o 'nome' dele com rating em data/3.csv (3 indica a versão dos dados...)
+
 Lembre de colocar o MESMO nome em ambos os CSVs
 
 # TODO
