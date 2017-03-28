@@ -39,7 +39,9 @@ cada um dos n capitães são escolhido random em cada rodada o capitão escolhe 
 
 # Inserir novo jogador
 Colocar o 'nome' dele em quem_vai_jogar/quem_vai_jogar.csv
+
 Colocar o 'nome' dele com rating em data/3.csv (3 indica a versão dos dados...)
+
 Lembre de colocar o MESMO nome em ambos os CSVs
 
 # TODO
