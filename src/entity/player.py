@@ -8,11 +8,17 @@ class Player:
         self.name = name
         self.ratings = ratings
 
+    def __str__(self):
+        return str(self.to_json())
+
+    def to_json(self):
+        return {"name": self.name, "mean": self.mean(), "median": self.median(), "mad": self.mad(), "id": self.id}
+
     def mean(self):
-        return np.mean(self.ratings)
+        return round(np.mean(self.ratings), 2)
 
     def median(self):
-        return np.median(self.ratings)
+        return round(np.median(self.ratings), 2)
 
     def mad(self):
-        return pd.Series(self.ratings).mad()
+        return round(pd.Series(self.ratings).mad(), 2)
